@@ -11,7 +11,7 @@ class avlList{
     private : node *root;
 
     //constructor
-    public: explicit avlList(){
+    public: avlList(){
         root = &node::EMPTY_NODE;
     }
 
